@@ -334,6 +334,7 @@ header {
     background-size: cover;
     width: 100%;
     height: 1000px;
+    overflow: hidden;
     display: -webkit-flex;
     display: -moz-flex;
     display: -ms-flex;
