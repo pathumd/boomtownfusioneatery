@@ -687,3 +687,82 @@ button:hover {
         margin-left: 100px;
     }
   }
+
+/*Mobile/Tablet*/
+
+@media only screen and (min-width: 360px) and (max-width: 765px) {
+
+    h1 {
+        font-size: 68px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+    
+    .line1 {
+        margin-top: 80px;
+    }
+
+    header {
+        height: 750px;
+    }
+
+    .scroll-downs {
+        top: 150px;
+        margin-bottom: 60px;
+    }
+}
+
+/*Tablet*/
+
+  @media only screen and (min-width: 768px) and (max-width: 1024px) {
+
+    h1 {
+        font-size: 80px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+    
+    .line1 {
+        margin-top: 80px;
+    }
+
+    header {
+        height: 750px;
+    }
+
+    .scroll-downs {
+        top: 150px;
+        margin-bottom: 60px;
+    }
+  }
+
+/*Laptop*/
+
+@media only screen and (min-width: 1030px) and (max-width: 1366px) {
+
+    h1 {
+        font-size: 80px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+    
+    .line1 {
+        margin-top: 80px;
+    }
+
+    header {
+        height: 750px;
+    }
+
+    .scroll-downs {
+        top: 150px;
+        margin-bottom: 60px;
+    }
+
+  }
