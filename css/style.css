@@ -333,7 +333,7 @@ header {
     -webkit-background-size: cover;
     background-size: cover;
     width: 100%;
-    height: 100vh;
+    height: 1000px;
     overflow: hidden;
     display: -webkit-flex;
     display: -moz-flex;
@@ -681,16 +681,9 @@ button:hover {
 
 /* Media queries for responsiveness for other viewports/devices */
 
-@media only screen and (min-width: 360px) and (max-width: 721px) {
-
-    .info_wrapper {
-        margin-left: 100px;
-    }
-  }
-
 /*Mobile/Tablet*/
 
-@media only screen and (min-width: 360px) and (max-width: 765px) {
+@media only screen and (min-width: 1px) and (max-width: 765px) {
 
     h1 {
         font-size: 68px;
@@ -702,6 +695,12 @@ button:hover {
     
     .line1 {
         margin-top: 80px;
+        font-size: 60px;
+    }
+
+    .line2 {
+        position: relative;
+        top: -30px;
     }
 
     header {
@@ -711,6 +710,14 @@ button:hover {
     .scroll-downs {
         top: 150px;
         margin-bottom: 60px;
+    }
+
+    #info_wrapper {
+        width: 80vw;
+    }
+
+    .menu_wrapper {
+        width: 80%;
     }
 }
 
