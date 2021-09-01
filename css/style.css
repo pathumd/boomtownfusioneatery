@@ -681,9 +681,56 @@ button:hover {
 
 /* Media queries for responsiveness for other viewports/devices */
 
+/*Smaller Mobile*/
+
+@media only screen and (min-width: 1px) and (max-width: 349px) {
+
+    .line1 {
+        margin-top: 80px;
+        font-size: 50px;
+    }
+
+    .line2 {
+        position: relative;
+        top: -30px;
+    }
+
+    h1 {
+        font-size: 68px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    header {
+        height: 750px;
+    }
+
+    .scroll-downs {
+        top: 150px;
+        margin-bottom: 60px;
+    }
+
+    #info_wrapper {
+        width: 80vw;
+    }
+
+    .menu_wrapper {
+        width: 80%;
+    }
+
+    .mapouter {
+        width: 80%;
+    }
+
+    .contact_details {
+        width: 80%;
+    }
+}
 /*Mobile/Tablet*/
 
-@media only screen and (min-width: 1px) and (max-width: 765px) {
+@media only screen and (min-width: 350px) and (max-width: 765px) {
 
     h1 {
         font-size: 68px;
