@@ -719,6 +719,14 @@ button:hover {
     .menu_wrapper {
         width: 80%;
     }
+
+    .mapouter {
+        width: 80%;
+    }
+
+    .contact_details {
+        width: 80%;
+    }
 }
 
 /*Tablet*/
