@@ -445,17 +445,19 @@ button:hover {
   }
 
   #about_tagline {
-      font-size: 28px;
+      font-size: 25px;
   }
 
   #intro_wrapper p {
       padding-top: 30px;
+      line-height: 1.5rem;
   }
 
 
 
   #info_wrapper p {
       text-align: right;
+      line-height: 1.5rem;
   }
 
   .tel, .hours, .address, .email {
@@ -519,7 +521,7 @@ button:hover {
 }
 
 #menu_tagline {
-    font-size: 28px;
+    font-size: 25px;
     padding-bottom: 30px;
 }
 
@@ -599,7 +601,7 @@ button:hover {
 }
 
 #contact_tagline {
-    font-size: 28px;
+    font-size: 25px;
     font-style: normal;
     padding-bottom: 60px;
 
@@ -612,6 +614,7 @@ button:hover {
     padding: 60px;
     border: 2px solid #FC7300;
     margin-bottom: 50px;
+    line-height: 1.5rem;
 }
 
 .contact_wrapper {
