@@ -114,6 +114,22 @@ a:hover {
     color: #FC7300;
 }
 
+ul {
+    text-decoration: none;
+    display: inline-block;
+    width: 100%;
+    justify-content: center;
+}
+
+li {
+    font-size: 14px;
+    display: inline-block;
+    margin: 0px 15px 0px 15px;
+    font-family: 'Bruta';
+    font-style: normal;
+    font-weight: 200;
+}
+
 /*Fade in animations */
 
 @keyframes fadeIn {
@@ -512,6 +528,7 @@ button:hover {
     width: 52px;
     height: 6px;
     margin: 0 auto;
+    margin-top: 80px;
     background-color: #FC7300;
 }
 
@@ -526,11 +543,18 @@ button:hover {
 }
 
 .menu_shortcuts {
-    word-spacing: 25px;
-    padding-bottom: 80px;
 }
 
+.menu_shortcuts li{
+    color: #fff;
+    text-decoration: underline;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
 
+.menu_shortcuts li:hover {
+    color: #FC7300;
+}
 /* Menu*/
 
 .menu_wrapper {
@@ -636,11 +660,18 @@ button:hover {
       padding-bottom: 50px;
   }
 
-  #footer_shortcuts {
-      font-size: 14px;
-      word-spacing: 1rem;
-      font-style: normal;
-      padding-bottom: 100px;
+  .footer_links {
+      padding: 50px 0px 100px 0px;
+  }
+
+  .footer_links li {
+    color: #a7a7a7;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+
+  .footer_links li:hover {
+    color: #FC7300;
   }
 
   .footer_content p {
@@ -650,27 +681,21 @@ button:hover {
       padding-bottom: 50px;
   }
 
-
-  .footer_content a {
-      text-decoration: none;
-      color: #a7a7a7;
-      transition: all 0.3s ease;
-  }
-
-  .footer_content a:hover {
-      color: #FC7300;
-  }
   .footer_wrapper {
       text-align: center;
   }
 
   .social_icons {
-      padding-bottom: 30px;
+      display: inline;
+      justify-content: center;
+  }
+
+  .social_icons a {
+      display: inline-block;
+      margin: 0px 20px 0px 20px;
   }
 
   #icon {
-      margin-left: 20px;
-      margin-right: 20px;
       cursor: pointer;
       transition: all 0.3s ease;
   }
@@ -730,6 +755,8 @@ button:hover {
     .contact_details {
         width: 80%;
     }
+
+    
 }
 /*Mobile/Tablet*/
 
