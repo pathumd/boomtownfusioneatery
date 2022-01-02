@@ -7,6 +7,7 @@ BoomTown Fusion Eatery is a fusion eatery restaurant in Smiths Falls, Ontario, t
 
 The new website features a much more elegant landing page, and more clearer menus so that customers can order food with ease. The website also features a refined contact section where the restaurant hours, contact details and location are clearly displayed (refer to Gallery section to view the before and after of the website).
 
+Live website: https://boomtownfusioneatery.com
 Tools Used:
 ---
 - Git
